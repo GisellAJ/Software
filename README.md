@@ -7,6 +7,8 @@ Solución reutilizable a un problema recurrente.
 # Factory Method
 Es un patrón de diseño creacional que proporciona una interfaz para crear objetos en superclase, pero permite que las subclases modifiquen el tipo de objetos que se crearán.
 
+Veamos un ejemplo del método factory. El método factory, devuelve un nuevo objeto de cualquier tipo dependiendo de la entrada. El ejemplo trata sobre conducir carros.
+
 [Ejemplo](Factory.py)
 
 # Singleton 
@@ -21,6 +23,8 @@ Es un patrón de diseño creacional que le permite producir objetos nuevos copia
 
 # Builder 
 Es un patrón de diseño creacional que le permite producir diferentes tipos y representaciones de un objeto utilizando el mismo proceso de construcción. El constructor permite construir objetos complejos paso a paso.
+
+En el ejemplo que sigue vemos una clase Director, la cual tiene un constructor asociado con ella. Director delega la construcción de las partes más pequeñas al constructor y las ensambla juntas.
 
 [Ejemplo](Builder.py)
 
