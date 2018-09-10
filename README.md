@@ -19,6 +19,8 @@ Es un patrón de diseño creacional que le permite garantizar que una clase teng
 # Prototype 
 Es un patrón de diseño creacional que le permite producir objetos nuevos copiando los existentes sin comprometer sus partes internas.
 
+En en ejemplo siguiente; Object, es la clase que puede ser clonada. La cual es solo una clase base, por lo que el método clone () no está implementado. Pero todas las subclases tienen que sobrescribirlo.
+
 [Ejemplo](Prototype.py)
 
 # Builder 
